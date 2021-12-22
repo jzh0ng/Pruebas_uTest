@@ -1,0 +1,235 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="359622ba09985e723028cc85814419f299b86000235474410d1046d8c0c8132b.html">History Test</a></span>
+                > <span class="truncate-60"><a
+                    href="1280b0b8ecb7d406c835027b5e4e78610891fcbadb9b339ca528b34f2ac56969.html">Buscar curso en la web </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 22-12-2021 11:38</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">History Test </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Un usuario quiere aprender a ser un tester automatizador
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Buscar curso en la web
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="7a620d951fed05f105f476252683368cf193ffa84f581f3c495953431e541ed2.png" title=" Given Juan quiere aprender a ser un tester automatizador" width="1366"/>
+                <img src="7a620d951fed05f105f476252683368cf193ffa84f581f3c495953431e541ed2.png" title=" Juan open up" width="1366"/>
+                <img src="7a620d951fed05f105f476252683368cf193ffa84f581f3c495953431e541ed2.png" title=" Juan opens the U test page" width="1366"/>
+                <img src="7a620d951fed05f105f476252683368cf193ffa84f581f3c495953431e541ed2.png" title=" Juan open up (completed)" width="1366"/>
+                <img src="c0c3438027bcc796f2dd3feb038a899fb03668afa1ec6bcc873c737a562521bc.png" title=" Juan login" width="1366"/>
+                <img src="c0c3438027bcc796f2dd3feb038a899fb03668afa1ec6bcc873c737a562521bc.png" title=" Juan clicks on button para el login" width="1366"/>
+                <img src="e53637a91ad2997c017dd78fd99cfe4ebe2447382f223e2c6fca6b1eab2fd196.png" title=" Juan enters 'jose.zhong@hotmail.com' into escribir su correo" width="1366"/>
+                <img src="4c4927675f50499e7cd14ee395badd6124fdce72ac31fab46aa4c331d744a7e1.png" title=" Juan enters 'UT3st@2021.' into escribir su contrase&Atilde;&plusmn;a" width="1366"/>
+                <img src="054d46e66aba3906149b166bb2368bbe0c6bd6e7fba01ca609c878763f9dbba3.png" title=" Juan clicks on button de ingresar" width="1366"/>
+                <img src="054d46e66aba3906149b166bb2368bbe0c6bd6e7fba01ca609c878763f9dbba3.png" title=" Juan login (completed)" width="1366"/>
+                <img src="260212b9ab66164fc8608046c8969ece8b711a5c5fddbbeb3204b9740eaedded.png" title=" Given Juan quiere aprender a ser un tester automatizador (completed)" width="1366"/>
+                <img src="16f4b45f84975aee3c766df8bcf3dfff8ae283b24b2e8b34575322d025c02964.png" title=" When Buscar el curso Introduction to Gambling Testing en el sitio web" width="1366"/>
+                <img src="16f4b45f84975aee3c766df8bcf3dfff8ae283b24b2e8b34575322d025c02964.png" title=" Juan search" width="1366"/>
+                <img src="16f4b45f84975aee3c766df8bcf3dfff8ae283b24b2e8b34575322d025c02964.png" title=" Juan clicks on Selecciona la Academia" width="1366"/>
+                <img src="c6e90440571d82c331761ede6c941c06ddf95a5466c94c9d7cd2c37f5853f330.png" title=" Juan enters 'Introduction to Gambling Testing' into Buscar el curso" width="1366"/>
+                <img src="2a4a3cffd2bc701f3d7df5d30bb952c76bfd8faae177326c596cb67678ec807b.png" title=" Juan clicks on Da click para buscar el contenido del curso" width="1366"/>
+                <img src="2a4a3cffd2bc701f3d7df5d30bb952c76bfd8faae177326c596cb67678ec807b.png" title=" Juan search (completed)" width="1366"/>
+                <img src="524fab1a7d311391c5d25ef6633af36d5db4a5bf543864ab61a8487c1d2d519c.png" title=" When Buscar el curso Introduction to Gambling Testing en el sitio web (completed)" width="1366"/>
+                <img src="524fab1a7d311391c5d25ef6633af36d5db4a5bf543864ab61a8487c1d2d519c.png" title=" Then Elegir el curso Introduction to Gambling Testing" width="1366"/>
+                <img src="524fab1a7d311391c5d25ef6633af36d5db4a5bf543864ab61a8487c1d2d519c.png" title=" Then answer" width="1366"/>
+                <img src="524fab1a7d311391c5d25ef6633af36d5db4a5bf543864ab61a8487c1d2d519c.png" title=" Then Elegir el curso Introduction to Gambling Testing (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
